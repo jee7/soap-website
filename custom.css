@@ -1,0 +1,104 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+.submenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu .form-group {
+    justify-content: flex-end;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.about-us-content img {
+    max-height: 200px;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+
+.footer-text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.social-media-links {
+    display: flex;
+    flex-flow: column;
+}
+
+.social-media-fb {
+    color: #4267B2 !important;
+}
+
+.social-media-yt {
+    color: #D82D36 !important;
+}
+
+.social-media-links a {
+    filter: saturate(0.9);
+}
+
+.social-media-links a:hover {
+    filter: saturate(1.4) brightness(1.4);
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+
+@media screen and (max-width: 576px) {
+    .responsive-text {
+        transform: scale(0.85)
+    }
+
+    footer {
+        padding: 0 0 5em 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .social-media-links {
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .social-media-links > a {
+        margin: 0 1em;
+    }
+}
